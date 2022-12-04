@@ -63,12 +63,12 @@ export default function CurrentTotals() {
             </chakra.h1>
             <SimpleGrid columns={{ base: 1, md: 4 }} spacing={{ base: 5, lg: 8 }}>
                 <StatsCard
-                    title={'BNB Credit'}
+                    title={'Matic Credit'}
                     stat={renterBalance}
                     icon={<MdOutlineAccountBalanceWallet size={'3em'} />}
                 />
                 <StatsCard
-                    title={'BNB Due'}
+                    title={'Matic Due'}
                     stat={due}
                     icon={<RiMoneyDollarCircleLine size={'3em'} />}
                 />
